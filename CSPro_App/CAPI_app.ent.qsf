@@ -1,0 +1,174 @@
+﻿---
+fileType: Question Text
+version: CSPro 7.6
+languages:
+  - name: EN
+    label: English
+styles:
+  - name: Normal
+    className: normal
+    css: |
+      font-family: Arial;font-size: 16px;
+      
+  - name: Instruction
+    className: instruction
+    css: |
+      font-family: Arial;font-size: 14px;color: #0000FF;
+      
+  - name: Heading 1
+    className: heading1
+    css: |
+      font-family: Arial;font-size: 36px;
+      
+  - name: Heading 2
+    className: heading2
+    css: |
+      font-family: Arial;font-size: 24px;
+      
+  - name: Heading 3
+    className: heading3
+    css: |
+      font-family: Arial;font-size: 18px;
+      
+questions:
+  - name: DATA_DICT_DICT.ACTIVITE_PRINCIPALE
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer l'activité proncipale de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.ADRESSE
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer l'adresse de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.COMMUNE
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer la commune de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.DATE_DE
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer la date de la création de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.DECLARATION
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer le lieu de la déclaration de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.DETENU
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer la part du détenu des marocains résidents à l'étranger du capital social de l'entreprise<p></p>
+  - name: DATA_DICT_DICT.EMAIL
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer l'eamil de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.FAX
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer le FAX de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.FORME_JURIDIQUE
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer la forme juridique de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.GENRE_DU_DIRIGEANT
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer le genre du dirigeant de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.ICE
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer l'ICE de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.ID_ENTREPRISE
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer l'ID de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.MONTANT_DU_CAPITAL_SOCIAL_EN_DH
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer le montant du capital social de l'entreprise en dirhams&nbsp;<p></p>
+  - name: DATA_DICT_DICT.NOM_OU_RAISON_SOCIALE
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer le nom de l'entreprise ou bien sa raison sociale&nbsp;<p></p>
+  - name: DATA_DICT_DICT.NUMERO_DU_RC
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer le numéro du RC de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.NUMERO_DU_TRIBUNAL
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer le numéro du tribunal de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.N_DE_LA_TAXE_PROFESSIONELLE
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer le numéro de la taxe professionnelle de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.N_DE_L_AFFILIATION_A_LA_CNSS
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer le numéro de l'affiliation à la CNSS de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.N_DE_L_IDENTIFIANT_FISCAL
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer le numéro de l'identifiant social de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.N_IS_OU_IR
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer le numéro de l'IS ou de l'IR de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.PART_DU_PRIVE_MAROCAIN
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer la part du privé marocain du capital social de l'entreprise<p></p>
+  - name: DATA_DICT_DICT.PART_DU_PUBLIC_MAROCAIN
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer la part du public marocain du capital social de l'entreprise<p></p>
+  - name: DATA_DICT_DICT.PART_ETRANGERE
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer la part étrangère du capital social de l'entreprise<p></p>
+  - name: DATA_DICT_DICT.PREMIERE_ACTIVITE_SECONDAIRE
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer la première activité secondaire de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.PROVINCE_OU_PREFECTURE
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer la province ou la préfecture de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.REGION
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer la région de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.TELEPHONE
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer le numéro de téléphone de l'entreprise&nbsp;<p></p>
+  - name: DATA_DICT_DICT.VILLE
+    conditions:
+      - questionText:
+          EN: |
+            Veuillez entrer la ville de l'entreprise&nbsp;<p></p>
+...

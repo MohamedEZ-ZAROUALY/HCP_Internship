@@ -1,0 +1,302 @@
+﻿[Dictionary]
+Version=CSPro 7.6
+Label=data_dict
+Name=DATA_DICT_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=31F75E9989E1E80F71BEA0465D3D317C10B83DDE0F06BD687F3A3B82222AD8A3
+
+[Level]
+Label=data_dict Level
+Name=DATA_DICT_LEVEL
+
+[IdItems]
+
+[Item]
+Label=ID_Entreprise
+Name=ID_ENTREPRISE
+Start=2
+Len=8
+DataType=Alpha
+
+[Record]
+Label=Identification de l'entreprise
+Name=ENTREPRISE_ID
+RecordTypeValue='1'
+RecordLen=351
+
+[Item]
+Label=Nom ou raison sociale
+Name=NOM_OU_RAISON_SOCIALE
+Start=10
+Len=81
+DataType=Alpha
+
+[Item]
+Label=Adresse
+Name=ADRESSE
+Start=91
+Len=81
+DataType=Alpha
+
+[Item]
+Label=Ville
+Name=VILLE
+Start=172
+Len=27
+DataType=Alpha
+
+[Item]
+Label=Région
+Name=REGION
+Start=199
+Len=2
+
+[ValueSet]
+Label=Région
+Name=REGION_VS1
+Value=1;Tanger-Tétouan-Al Hoceïma
+Value=2;L'Oriental
+Value=3;Fès-Meknès
+Value=4;Rabat-Salé-Kénitra
+Value=5;Béni Mellal-Khénifra
+Value=6;Casablanca-Settat
+Value=7;Marrakech-Safi
+Value=8;Drâa-Tafilalet
+Value=9;Souss-Massa
+Value=10;Guelmim-Oued Noun
+Value=11;	Laâyoune-Sakia El Hamra
+Value=12;Dakhla-Oued Ed-Dahab
+
+[Item]
+Label=Province ou préfecture
+Name=PROVINCE_OU_PREFECTURE
+Start=201
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Commune
+Name=COMMUNE
+Start=226
+Len=25
+DataType=Alpha
+
+[Item]
+Label=Téléphone
+Name=TELEPHONE
+Start=251
+Len=10
+DataType=Alpha
+
+[Item]
+Label=Fax
+Name=FAX
+Start=261
+Len=10
+DataType=Alpha
+
+[Item]
+Label=Adresse e-mail
+Name=EMAIL
+Start=271
+Len=81
+DataType=Alpha
+
+[Record]
+Label=Caractéristiques de l'entrprise
+Name=ENTREPRISE_CARAC
+RecordTypeValue='2'
+RecordLen=253
+
+[Item]
+Label=Forme juridique
+Name=FORME_JURIDIQUE
+Start=10
+Len=1
+
+[ValueSet]
+Label=Forme juridique
+Name=FORME_JURIDIQUE_VS1
+Value=1;SA
+Value=2;SARL
+Value=3;Entreprise Individuelle
+Value=4;Coopérative
+Value=5;Autres formes à préciser
+
+[Item]
+Label=Numéro du RC
+Name=NUMERO_DU_RC
+Start=11
+Len=6
+
+[Item]
+Label=Numéro du tribunal
+Name=NUMERO_DU_TRIBUNAL
+Start=17
+Len=3
+
+[Item]
+Label=N° de la taxe professionelle (ex Patente)
+Name=N_DE_LA_TAXE_PROFESSIONELLE
+Start=20
+Len=8
+
+[Item]
+Label=N°IS ou IR
+Name=N_IS_OU_IR
+Start=28
+Len=8
+
+[Item]
+Label=N° de l'identifiant fiscal
+Name=N_DE_L_IDENTIFIANT_FISCAL
+Start=36
+Len=8
+
+[Item]
+Label=N° de l'affiliation à la CNSS
+Name=N_DE_L_AFFILIATION_A_LA_CNSS
+Start=44
+Len=8
+
+[Item]
+Label=N° de l'identifiant commun de l'entreprise ICE
+Name=ICE
+Start=52
+Len=15
+
+[Item]
+Label=Date de création de l'entreprise
+Name=DATE_DE
+Start=67
+Len=4
+
+[Item]
+Label=Lieu de la déclaration de la création
+Name=DECLARATION
+Start=71
+Len=1
+
+[ValueSet]
+Label=Lieu de la déclaration de la création
+Name=DECLARATION_VS1
+Value=1;Centre Régional d'Investissement (CRI)
+Value=2;Autres à préciser
+
+[Item]
+Label=Activité principale
+Name=ACTIVITE_PRINCIPALE
+Start=72
+Len=2
+
+[ValueSet]
+Label=Activité principale
+Name=ACTIVITE_PRINCIPALE_VS1
+Value=1;Agriculture,sylviculture et pêche
+Value=2;Industries extractives
+Value=3;Industrie manufacturière
+Value=4;Prodduction et distribution d'électricité,de gaz,de vapeur et d'air conditionné
+Value=5;Production et distribution d'eau : Assainissement, gestion des déchets et dépollution
+Value=6;Construction
+Value=7;Commerce : Réparation d'automobiles et de motocycles
+Value=8;Transports et entreposage
+Value=9;Hébergement et restauration
+Value=10;Tourisme
+Value=11;Activités financières et d'assurance
+Value=12;Activités immobilières
+Value=13;Activités spécialisés,scientifiques et techniques
+Value=14;Activités de services administratives et de soutien
+Value=15;Administration publique
+Value=16;Enseignement
+Value=17;Santé humaine et action sociale
+Value=18;Arts,spectacles et activités récréatives
+Value=19;Autres activités de service
+Value=20;Activités des ménages en tant qu'employeurs : Activités indifférenciées des ménages en tant que producteurs de biens et services pour usage propre
+Value=21;Activités extra-territoriales
+
+[Item]
+Label=Première activité secondaire
+Name=PREMIERE_ACTIVITE_SECONDAIRE
+Start=74
+Len=52
+DataType=Alpha
+
+[Item]
+Label=Genre du dirigeant
+Name=GENRE_DU_DIRIGEANT
+Start=126
+Len=1
+
+[ValueSet]
+Label=Genre du dirigeant
+Name=GENRE_DU_DIRIGEANT_VS1
+Value=1;Masculin
+Value=2;Féminin
+
+[Item]
+Label=Montant du capital social en DH
+Name=MONTANT_DU_CAPITAL_SOCIAL_EN_DH
+Start=127
+Len=15
+
+[Item]
+Label=Part du privé marocain
+Name=PART_DU_PRIVE_MAROCAIN
+Start=142
+Len=3
+
+[ValueSet]
+Label=Part du privé marocain
+Name=PART_DU_PRIVE_MAROCAIN_VS1
+Value=0:100;0-100
+
+[Item]
+Label=Part du public marocain
+Name=PART_DU_PUBLIC_MAROCAIN
+Start=145
+Len=3
+
+[ValueSet]
+Label=Part du public marocain
+Name=PART_DU_PUBLIC_MAROCAIN_VS1
+Value=0:100;0-100
+
+[Item]
+Label=Part étrangère
+Name=PART_ETRANGERE
+Start=148
+Len=3
+
+[ValueSet]
+Label=Part étrangère
+Name=PART_ETRANGERE_VS1
+Value=0:100;0-100
+
+[Item]
+Label=Part du capital social détenu par les marocains résidents à l'étranger
+Name=DETENU
+Start=151
+Len=3
+
+[ValueSet]
+Label=Part du capital social détenu par les marocains résidents à l'étranger
+Name=DETENU_VS1
+Value=0:100;0-100
+
+[Item]
+Label=Autre forme
+Name=AUTRE1
+Start=154
+Len=50
+DataType=Alpha
+
+[Item]
+Label=Autre lieu
+Name=AUTRE2
+Start=204
+Len=50
+DataType=Alpha

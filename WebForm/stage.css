@@ -1,0 +1,338 @@
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Eléments principaux de la page */
+
+body
+{
+   /* background: url('images/fond_jaune.png');*/
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#bloc_page
+{
+    width: 1200px;
+    margin: auto;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+hr {
+    color : #87CEFA;
+}
+/* Header */
+header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*align-items: flex-end;*/
+    margin-bottom: 25px;
+}
+
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#img1
+{
+    margin-right : 45px;
+    width: 200px;
+    height: 180px;
+}
+
+#img2
+{
+    width: 220px;
+    height: 130px;
+    margin-left: 45px;
+}
+
+header
+{
+    padding-top: 15px;
+   /* border-radius: 0.5em;
+    border-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19; */
+}
+
+header h1
+{
+    font-family: Arial, Helvetica, serif;
+    font-size: 3em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+    vertical-align: middle;
+}
+
+
+/* Navigation */
+.sticky {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    align-self: center;
+    background-color: #ffffff;
+  } 
+
+.sticky + section 
+  {
+    padding-top: 102px;
+  }
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+nav li:hover
+{
+    margin-right: 15px;
+    
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    border-radius: 0.5em;
+    padding : 10px 20px 10px 20px ;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #ADD8E6;
+    border-bottom: 3px solid 	#00008B;
+    background-color: #4169E1;
+}
+
+
+
+/* Corps */
+
+section
+{
+    margin-bottom: 20px;
+}
+
+#form
+{
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 1em;
+    
+}
+form div
+{
+    background-color: rgb(65,105,225);
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 1em;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    margin: 20px 10px 20px 10px;
+    
+}
+#identification,#caracteristiques
+{
+    background-color: beige ;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 1em;
+    padding: 10px;
+    margin-bottom : 30px;
+    margin-top : 30px;
+}
+#titre_1,#titre_2
+{
+    color: rgb(70, 125, 185);
+    background-size: 820px;
+    background-position: center;
+    font-size: 1.22em;
+    font-weight: bold;
+    border-radius: 0.5em;
+    border-color: #0c0ca5;
+    border-style: double;
+    padding: 35px;
+    margin: 10px 10px 10px 10px; 
+}
+
+form div p 
+{
+    color: rgb(0, 0, 0);
+    background-color: beige;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-radius: 0.5em;
+    box-shadow: 0px 2px 5px #1c1a19;
+    padding: 20px;
+    font-size: 1.1em;
+    margin: 10px 10px 10px 10px; 
+    text-align: center;
+}
+input label 
+{
+    padding-left: 20px;
+}
+
+input[type=text],input[type=number],input[type=email]
+ {
+    width : 1100px ;
+    padding : 12px 20px ;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 10px ;
+  }
+
+#datepick{
+    text-align: center;
+}
+  input[type=date] 
+  {
+    
+    margin: 10px ;
+    background-color: #529aec;
+    color: white;
+    padding: 15px ;
+    transform : translate (-50%,-50%);
+    top : 50%;
+    left : 50%;
+    font-family: "Roboto Mono",monospace;
+    font-size :18px;
+    border:none;
+    outline :none ;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  select {
+    width: 1100px ;
+    padding: 16px 20px;
+    margin:  10px ;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+  ::-webkit-calendar-picker-indicator{
+      background-color: #ffffff;
+      padding:5px;
+      cursor:pointer;
+      border-radius: 3px;
+  }
+  input[type=submit] 
+  {
+    width : 1138px ;
+    background-color: rgb(65,105,225);
+    color: white;
+    padding: 12px ;
+    border:#1c1a19;
+    border-style: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+/* Footer */
+
+footer
+{
+    display: flex;
+    padding-top: 25px;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+
+
+#website
+{
+    width: 33%;
+}
+
+#website div
+{
+    display: flex;
+    align-items: center;
+}
+
+#website div a
+{
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+#keep
+{
+    margin-left :50px;
+    width: 33%;
+}
+
+#keep img
+{
+    margin-right: 5px;
+}
+
+#about 
+{
+    width: 31%;
+}
+
+#about div
+{
+    display: flex;
+    align-items: center;
+    margin-top: -7px;
+}
+
+#about div p
+{
+    font-size: 15px;
+    padding-left: 15px;
+}

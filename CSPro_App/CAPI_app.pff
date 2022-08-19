@@ -1,0 +1,8 @@
+﻿[Run Information]
+Version=CSPro 7.6
+AppType=Entry
+
+[Files]
+Application=.\CAPI_app.ent
+InputData=.\input.csdb
+Paradata=.\CAPI_app.cslog
